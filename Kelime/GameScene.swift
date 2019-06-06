@@ -16,7 +16,6 @@ import FirebaseDatabase
 
 class GameScene: SKScene {
     
-   
     var arkaplan = SKSpriteNode()
     var kelimekutusu = SKSpriteNode()
     
