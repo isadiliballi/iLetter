@@ -28,7 +28,6 @@ class GameScene: SKScene {
     
     var ref : DatabaseReference!
     
-    
     var soruletterAtama : [String] = []
     var cevapletterAtama : [String] = []
     
