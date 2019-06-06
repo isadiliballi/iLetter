@@ -15,8 +15,8 @@
 		1E0842A4225A6371005958F1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1E0842A2225A6371005958F1 /* Main.storyboard */; };
 		1E0842A6225A6371005958F1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1E0842A5225A6371005958F1 /* Assets.xcassets */; };
 		1E0842A9225A6371005958F1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1E0842A7225A6371005958F1 /* LaunchScreen.storyboard */; };
-		1EE88E7422A92341000E52EF /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1EE88E7322A92341000E52EF /* GoogleService-Info.plist */; };
-		5417F8E1993F6A5B27724B2B /* Pods_Kelime.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 02B9FFC619A977C73FB2DE05 /* Pods_Kelime.framework */; };
+		1E3C53C62261410600F3265D /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1E3C53C52261410600F3265D /* GoogleService-Info.plist */; };
+		5ED1131829FA6BF18F2A17F5 /* Pods_Kelime.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 754DE8DC4CE41AD0689FC04E /* Pods_Kelime.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -33,8 +33,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		02B9FFC619A977C73FB2DE05 /* Pods_Kelime.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Kelime.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		0C74294A11124AFE30D65919 /* Pods-Kelime.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Kelime.debug.xcconfig"; path = "Target Support Files/Pods-Kelime/Pods-Kelime.debug.xcconfig"; sourceTree = "<group>"; };
+		0B51E6C34CBD4BA7C5E67283 /* Pods-Kelime.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Kelime.debug.xcconfig"; path = "Target Support Files/Pods-Kelime/Pods-Kelime.debug.xcconfig"; sourceTree = "<group>"; };
+		1E084295225A6371005958F1 /* Kelime.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Kelime.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1E084298225A6371005958F1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1E08429A225A6371005958F1 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
 		1E08429C225A6371005958F1 /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
@@ -44,9 +44,9 @@
 		1E0842A5225A6371005958F1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1E0842A8225A6371005958F1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1E0842AA225A6371005958F1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		1EE88E7222A92327000E52EF /* Kelime.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Kelime.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		1EE88E7322A92341000E52EF /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
-		FEC7BA6735E5660BC3DCA765 /* Pods-Kelime.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Kelime.release.xcconfig"; path = "Target Support Files/Pods-Kelime/Pods-Kelime.release.xcconfig"; sourceTree = "<group>"; };
+		1E3C53C52261410600F3265D /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		754DE8DC4CE41AD0689FC04E /* Pods_Kelime.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Kelime.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A66AF7E5BCA7280F8340B02A /* Pods-Kelime.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Kelime.release.xcconfig"; path = "Target Support Files/Pods-Kelime/Pods-Kelime.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,31 +54,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5417F8E1993F6A5B27724B2B /* Pods_Kelime.framework in Frameworks */,
+				5ED1131829FA6BF18F2A17F5 /* Pods_Kelime.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0E8EE2E230C0A2432DFDC8DB /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				0C74294A11124AFE30D65919 /* Pods-Kelime.debug.xcconfig */,
-				FEC7BA6735E5660BC3DCA765 /* Pods-Kelime.release.xcconfig */,
-			);
-			name = Pods;
-			path = Pods;
-			sourceTree = "<group>";
-		};
 		1E08428C225A6371005958F1 = {
 			isa = PBXGroup;
 			children = (
 				1E084297225A6371005958F1 /* Kelime */,
-				1EE88E7222A92327000E52EF /* Kelime.app */,
-				0E8EE2E230C0A2432DFDC8DB /* Pods */,
-				F3045DACB2823CB579C352B3 /* Frameworks */,
+				1E084296225A6371005958F1 /* Products */,
+				CF5255006C3282E79B809F0F /* Pods */,
+				519B53B6B1543BAC74A4A2D3 /* Frameworks */,
 			);
+			sourceTree = "<group>";
+		};
+		1E084296225A6371005958F1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1E084295225A6371005958F1 /* Kelime.app */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 		1E084297225A6371005958F1 /* Kelime */ = {
@@ -93,17 +91,26 @@
 				1E0842A5225A6371005958F1 /* Assets.xcassets */,
 				1E0842A7225A6371005958F1 /* LaunchScreen.storyboard */,
 				1E0842AA225A6371005958F1 /* Info.plist */,
-				1EE88E7322A92341000E52EF /* GoogleService-Info.plist */,
+				1E3C53C52261410600F3265D /* GoogleService-Info.plist */,
 			);
 			path = Kelime;
 			sourceTree = "<group>";
 		};
-		F3045DACB2823CB579C352B3 /* Frameworks */ = {
+		519B53B6B1543BAC74A4A2D3 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				02B9FFC619A977C73FB2DE05 /* Pods_Kelime.framework */,
+				754DE8DC4CE41AD0689FC04E /* Pods_Kelime.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CF5255006C3282E79B809F0F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0B51E6C34CBD4BA7C5E67283 /* Pods-Kelime.debug.xcconfig */,
+				A66AF7E5BCA7280F8340B02A /* Pods-Kelime.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -126,7 +133,7 @@
 			);
 			name = Kelime;
 			productName = Kelime;
-			productReference = 1EE88E7222A92327000E52EF /* Kelime.app */;
+			productReference = 1E084295225A6371005958F1 /* Kelime.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -153,7 +160,7 @@
 				Base,
 			);
 			mainGroup = 1E08428C225A6371005958F1;
-			productRefGroup = 1E08428C225A6371005958F1;
+			productRefGroup = 1E084296225A6371005958F1 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
@@ -172,7 +179,7 @@
 				1E0842A6225A6371005958F1 /* Assets.xcassets in Resources */,
 				1E0842A9225A6371005958F1 /* LaunchScreen.storyboard in Resources */,
 				1E08429D225A6371005958F1 /* Actions.sks in Resources */,
-				1EE88E7422A92341000E52EF /* GoogleService-Info.plist in Resources */,
+				1E3C53C62261410600F3265D /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -207,11 +214,22 @@
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Kelime/Pods-Kelime-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Kelime/Pods-Kelime-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Kelime/Pods-Kelime-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -371,7 +389,7 @@
 		};
 		1E0842AE225A6371005958F1 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0C74294A11124AFE30D65919 /* Pods-Kelime.debug.xcconfig */;
+			baseConfigurationReference = 0B51E6C34CBD4BA7C5E67283 /* Pods-Kelime.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -393,7 +411,7 @@
 		};
 		1E0842AF225A6371005958F1 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = FEC7BA6735E5660BC3DCA765 /* Pods-Kelime.release.xcconfig */;
+			baseConfigurationReference = A66AF7E5BCA7280F8340B02A /* Pods-Kelime.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
